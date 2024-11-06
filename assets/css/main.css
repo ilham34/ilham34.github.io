@@ -713,7 +713,7 @@ section,
   margin-top: 25px;
 }
 
-.hero .download-button .button {
+.hero .download-button a {
   display: inline-block;
   background-color: var(--accent-color);
   border: none;
@@ -722,22 +722,22 @@ section,
   margin-right: 25px;
   font-size: 14px;
   padding: 20px;
-  width: 200px;
+  width: 220px;
   border-radius: 12px;
   box-shadow: 2px 9px #999;
 }
 
-.hero .download-button .button:hover {
+.hero .download-button a:hover {
   background-color: #dcc099;
 }
 
-.hero .download-button .button:active {
+.hero .download-button a:active {
   background-color: #8d7b62;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-.hero .download-button .button-2 {
+/* .hero .download-button a {
   display: inline-block;
   background-color: #39b64e;
   border: none;
@@ -759,7 +759,7 @@ section,
   background-color: #2d913e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
+} */
 
 @media (max-width: 768px) {
   .hero h2 {
@@ -1505,11 +1505,4 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
