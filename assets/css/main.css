@@ -709,9 +709,6 @@ section,
   color: var(--accent-color);
 }
 
-.hero .download-button {
-  margin-top: 25px;
-}
 
 .hero .download-button a {
   display: inline-block;
@@ -721,6 +718,7 @@ section,
   text-align: center;
   margin-right: 25px;
   font-size: 14px;
+  margin-top: 25px;
   padding: 20px;
   width: 220px;
   border-radius: 12px;
